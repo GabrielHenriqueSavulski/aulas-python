@@ -1,0 +1,30 @@
+num = [2, 5, 9, 1]
+print(num)
+num[2] = 3
+print(num)
+num.append(7)
+print(num)
+num.sort()
+print(num)
+num.sort(reverse=True)
+print(num)
+num.insert(2, 0)
+print(num)
+num.pop()
+print(num)
+num.pop(2)
+print(num)
+del num[1]
+print(num)
+num.remove(3)
+print(num)
+num.insert(1, 'banana')
+num.append('banana')
+print(num)
+num.remove('banana')
+print(num)
+if 3 in num:
+    num.remove(3)
+else:
+    print('Não achei o número 3')
+print(f'Essa lista tem {len(num)} elementos')

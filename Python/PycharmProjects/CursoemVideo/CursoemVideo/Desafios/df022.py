@@ -1,0 +1,7 @@
+print('{:=^20}'.format('DESAFIO 022'))
+nome = input('Qual seu nome completo? ')
+dividido = nome.split()
+print(nome.upper())
+print(nome.lower())
+print(len(''.join(dividido)))
+print(len(dividido[0]))

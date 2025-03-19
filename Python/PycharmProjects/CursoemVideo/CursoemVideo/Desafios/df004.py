@@ -1,0 +1,6 @@
+print('=====DESAFIO 04=====')
+info = input('Digite algo: ')
+print(type(info))
+print(info.isalnum())
+print(info.isalpha())
+print(info.isnumeric())

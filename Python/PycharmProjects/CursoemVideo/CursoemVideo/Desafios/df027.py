@@ -1,0 +1,5 @@
+print('{:=^20}'.format('DESAFIO 027'))
+nome = str(input('Escreva seu nome: ')).strip()
+dividido = nome.split()
+print('Primeiro nome: {}'.format(dividido[0]))
+print('Último nome: {}'.format(dividido[len(dividido) - 1]))
